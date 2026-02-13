@@ -1,0 +1,491 @@
+@media print {
+  * {
+    font-family: "arial";
+    font-size: small;
+  }
+
+  html,
+  body {
+    height: 100% !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .justifyAlign {
+
+    text-align: justify;
+  }
+
+  .pdf-container {
+    width: fit-content;
+  }
+
+  .page_title_rsa_print,
+  .stretch_details_rsa {
+    page-break-inside: always !important;
+  }
+
+  .tableofcontent_rsa {
+    page-break-before: always !important;
+  }
+
+  .pgbreakAfter {
+    page-break-after: always !important;
+  }
+
+  .font12Print {
+    font-size: medium !important;
+    margin-top: 50px !important;
+    font-weight: 500 !important;
+    margin-bottom: 25px !important;
+  }
+
+  .general_details_tbale_rsa>div {
+    width: 500px !important;
+  }
+
+  .general_details_tbale_rsa_img {
+    width: 220px !important;
+    height: 180px !important;
+  }
+
+  .hfaztitle {
+    page-break-before: always !important;
+  }
+
+  .hfaztabone,
+  .hfaxtabtwo {
+    page-break-before: always !important;
+  }
+
+  .generalObsection {
+    page-break-before: always !important;
+  }
+
+  .general_details_tbale_rsa_imgparent {
+    display: flex !important;
+    justify-content: space-around !important;
+    gap: 11px;
+  }
+
+  .landscape_section {
+    font-size: smaller;
+    page-break-before: always !important;
+  }
+
+
+
+  .criticalSection {
+    page: ld1;
+    break-before: page;
+    padding-top: 5px;
+  }
+
+  .criticalSectionTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+  }
+
+  @page ld1 {
+    size: landscape !important;
+    margin: 2.54cm;
+  }
+
+  .watermark {
+    position: fixed;
+    bottom: 0%;
+    left: 20%;
+    font-size: 20px;
+    color: black;
+  }
+
+  .brkAlways {
+    page-break-after: always !important;
+  }
+
+  .brkBefore {
+    page-break-before: always !important;
+  }
+
+  /* .font12Print {
+    font-size: medium;
+    font-weight: 600;
+  } */
+
+
+  table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+
+th,
+td {
+  justify-content: center;
+  /* border: 1px solid #000; */
+  vertical-align: top;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;    /* Allow wrapping */
+}
+
+
+
+  .img-slot {
+    position: relative;
+    height: 120px;
+  }
+
+  .pdf-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 120px;
+    object-fit: contain;
+  }
+
+
+
+  .img-cell {
+    width: 100%;
+    height: 120px;
+    /* reserve height */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-cell img {
+    max-width: 100%;
+    max-height: 120px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+
+  /* .flex,
+  .row,
+  .col {
+    display: block !important;
+  } */
+
+
+  /* 
+   .pdf-table {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+
+    tr {
+    page-break-inside: avoid;
+  }
+
+  tr.force-break {
+    page-break-before: always;
+  } */
+
+}
+
+
+
+@media print {
+  .print-root {
+    width: 190mm;
+    max-width: 190mm;
+    margin: 0 auto;
+  }
+}
+
+
+@media print {
+
+  th:nth-child(1),
+  td:nth-child(1) {
+    width: 20mm;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 40mm;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 80mm;
+  }
+
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 30mm;
+  }
+}
+
+
+
+
+.brkAlways {
+  page-break-after: always !important;
+}
+
+.brkBefore {
+  page-break-before: always !important;
+}
+
+.print-preview-button {
+  @media print {
+    display: none;
+  }
+}
+
+
+@page {
+  size: A4;
+  /* margin: 20mm; */
+  margin-top: 80px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+@media print {
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
+  .print-root {
+    width: 190mm;
+    /* A4 minus margins */
+    max-width: 190mm;
+    min-height: 277mm;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+
+.print-wrapper {
+  width: 100% !important;
+
+  table {
+    width: 100% !important;
+  }
+  
+
+  /* display: none; */
+
+  .header,
+  .header-space,
+  .footer,
+  .footer-space {
+    display: none;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    background-color: var(-a1);
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(-a1);
+  }
+
+  .hidePrint {
+    display: "flex";
+    justify-content: "center"
+  }
+}
+
+@media print {
+  .hidePrint {
+    display: none !important;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .print-wrapper {
+    display: block;
+    width: 100% !important;
+
+    table {
+      width: 100% !important;
+    }
+
+    .header-space,
+    .footer-space {
+      width: 100%;
+      left: 0;
+      display: block;
+    }
+
+    .header,
+    .footer {
+      display: block;
+      left: 0;
+      width: 100%;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+    }
+
+    .footer {
+      position: fixed;
+      background-color: greenyellow;
+    }
+
+  }
+}
+
+
+
+
+.pdf-content {
+  width: 794px;
+  /* A4 width @ 96dpi */
+  padding: 0;
+  margin: 0 auto;
+  background: white;
+  color: black;
+}
+
+.pdf-content::after {
+  content: "";
+  display: block;
+  height: 20mm;
+}
+
+
+.pdf-table {
+  width: 100%;
+  border-collapse: collapse;
+  page-break-inside: auto;
+}
+
+.pdf-table th,
+.pdf-table td {
+  /* border: 1px solid #000; */
+  padding: 8px;
+}
+
+.pdf-table tr {
+  page-break-inside: avoid;
+}
+
+.page-break {
+  page-break-before: always;
+  break-before: page;
+}
+
+.page-break1 {
+  page-break-before: always;
+  break-before: page;
+  page: landscape;
+}
+
+.page-start {
+  padding-top: 5mm;
+}
+
+p {
+  page-break-inside: avoid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  page-break-inside: auto;
+  table-layout: fixed;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+
+
+
+th,
+td {
+  justify-content: center;
+  /* border: 1px solid #000; */
+  vertical-align: top;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;    /* Allow wrapping */
+}
+
+/* 
+td img {
+  max-height: 100px;
+  width: auto;
+  display: block;
+} */
+
+
+td img,
+th img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  page-break-inside: avoid;
+
+}
+
+
+
+/* define landscape page */
+@page tableLandscape {
+  size: A4 landscape;
+  margin: 10mm;
+}
+
+/* apply landscape to only this page */
+.table-landscape {
+  page: tableLandscape;
+  page-break-before: always;
+}
+
+/* table safety */
+.wide-table {
+  width: 50%;
+  table-layout: fixed;
+  font-size: 10px;
+}
+
+.wide-table th,
+.wide-table td {
+  padding: 4px;
+  word-wrap: break-word;
+}
+
+#landscape-table {
+  transform: rotate(-90deg);
+  /* rotate counter-clockwise */
+  transform-origin: top left;
+  width: 297mm;
+  /* A4 height becomes width in landscape */
+  height: 210mm;
+  /* A4 width becomes height */
+  margin-left: -80px;
+  /* adjust to fit the page */
+}

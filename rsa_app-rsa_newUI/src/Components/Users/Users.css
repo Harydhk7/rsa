@@ -1,0 +1,49 @@
+@media screen and (max-width: 425px) {
+  .rsa_usermanagement {
+    width: 100% !important;
+  }
+  .rsa_newuser_add {
+    width: 100% !important;
+    height: auto !important;
+    padding: 11px !important;
+  }
+  .rsa_user_profile {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .rsa_user_profiledata {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .rsa_usermanagement {
+    width: 100% !important;
+  }
+  .rsa_newuser_add {
+    width: 100% !important;
+    height: auto !important;
+    padding: 11px !important;
+  }
+  .rsa_user_profile {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .rsa_user_profiledata {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    width: 100% !important;
+  }
+  .rsa_newuser_add {
+    position: relative;
+    top: 15px;
+  }
+  .rsa_user_address {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    width: 100% !important;
+  }
+}

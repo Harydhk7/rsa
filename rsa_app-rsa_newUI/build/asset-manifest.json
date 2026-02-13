@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2921d759.css",
+    "main.js": "./static/js/main.c9049282.js",
+    "static/js/977.3e59e791.chunk.js": "./static/js/977.3e59e791.chunk.js",
+    "static/js/455.850d003d.chunk.js": "./static/js/455.850d003d.chunk.js",
+    "static/media/cl.png": "./static/media/cl.9a15cd91894178397066.png",
+    "static/media/logo.png": "./static/media/logo.145bf7aec22eb93f5cbc.png",
+    "static/media/coers.png": "./static/media/coers.8b8a26c27b04e9f5c724.png",
+    "static/media/iitlogo.png": "./static/media/iitlogo.8c832ae718ea42d839f6.png",
+    "static/media/planningimg.png": "./static/media/planningimg.c7539ff7f15c8c23b6ff.png",
+    "static/media/map.png": "./static/media/map.be335397c6bbf8c21b9f.png",
+    "static/media/gajendra.jpg": "./static/media/gajendra.88fff949ceaa12b97175.jpg",
+    "static/media/FRAME.png": "./static/media/FRAME.d3c89abdf738139f380a.png",
+    "static/media/audit.png": "./static/media/audit.ddb13a57f1c71cb822b6.png",
+    "static/media/noImage.png": "./static/media/noImage.37a8f1324744f0ba2f17.png",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "./index.html",
+    "main.2921d759.css.map": "./static/css/main.2921d759.css.map",
+    "main.c9049282.js.map": "./static/js/main.c9049282.js.map",
+    "455.850d003d.chunk.js.map": "./static/js/455.850d003d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2921d759.css",
+    "static/js/main.c9049282.js"
+  ]
+}

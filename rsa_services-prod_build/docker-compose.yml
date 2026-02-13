@@ -1,0 +1,47 @@
+version: '3.8'
+services:
+  rsa_frontend:
+    build:
+      context: ../rsa_app-rsa_newUI
+      dockerfile: Dockerfile
+    container_name: rsa_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000
+    depends_on:
+      - rsa_api
+    restart: unless-stopped
+
+  rsa_api:
+    build: .
+    container_name: rsa_api
+    ports:
+      - "5000:5000"
+    environment:
+      - APP_URL=#  # domain mapping commented out by default; set APP_URL to enable links
+      - DB_HOST=db
+      - DB_NAME=rsa
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+      - DB_PORT=5432
+    depends_on:
+      - db
+    # volumes:
+    #   - ./certs:/etc/ssl/certs  # SSL cert mount commented out by default
+    #   - ./rsa_data:/app/data
+    restart: unless-stopped
+
+  db:
+    image: postgres:14
+    environment:
+      - POSTGRES_DB=${DB_NAME:-rsa}
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-postgres}
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:

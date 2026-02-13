@@ -1,0 +1,603 @@
+1,GPS location,Cross Section,Existing,Lat Long,,,TRUE,FALSE,D1
+2,Chainage (km),Cross Section,Existing,Textbox,,,FALSE,FALSE,D2
+3,Photo or Video or Audio,Cross Section,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,D3
+4,Min. 30m wide Right of Way (ROW) ,Cross Section,Existing,Radio Button,IRC:SP:73- 2018 Clause 2.3 two laning cross sections  improvement  of geometrics  realignment  junctions  bypasses etc.  ROW of 30 m shall be acquired by the  Authority,,FALSE,FALSE,D4
+5,ROW width (m),Cross Section,Existing,Textbox,,If D4= No,TRUE,FALSE,D4.1
+6,Min. 3.5m wide lane ,Cross Section,Existing,Radio Button,IRC:SP:73- 2018 Clause 2.4 The standard lane width of the Project Highway shall be 3.5 m.,,FALSE,FALSE,D5
+7,Width (m),Cross Section,Existing,Textbox,,If D5 = No,TRUE,FALSE,D5.1
+8,Carriageway width (m),Cross Section,Existing,Textbox,IRC Specification,,FALSE,FALSE,D6
+9,Shoulder ,Cross Section,Existing,,,,FALSE,FALSE,D7
+10,Issues,Cross Section,Existing,Select,,,FALSE,FALSE,D7.1
+11,Type,Cross Section,Existing,Paved or Earthen,,,FALSE,FALSE,D7.2
+12,Width(m),Cross Section,Existing,Textbox,IRC:SP:73-2018 Clause 2.6.1 Table 2.2 Shoulder Width ,If D7.2 = Paved,FALSE,FALSE,D7.2.1
+13,Width(m),Cross Section,Existing,Textbox,IRC:SP:73-2018  Clause 2.6.1  Table 2.2 Shoulder Width ,If D7.2 = Earthen,FALSE,FALSE,D7.2.2
+14,Drainage Issues ,Cross Section,Existing,Select,IRC Specification,,FALSE,FALSE,D8
+15,Hazard Type,Cross Section,Existing,Select,,,FALSE,FALSE,D9
+16,Comments,Cross Section,Existing,Textbox,,,FALSE,FALSE,D10
+17,Critical observation,Cross Section,Existing,,,,FALSE,FALSE,D11
+18,General observation,Cross Section,Existing,,,,FALSE,FALSE,D12
+19,Severity ,Cross Section,Existing,Select,IRC Specification,,FALSE,FALSE,D13
+20,Priority ,Cross Section,Existing,Select,IRC Specification,,FALSE,FALSE,D14
+21,GPS Location,Pavement Condition ,Existing,Lat Long,,,TRUE,FALSE,E1
+22,Chainage (km),Pavement Condition ,Existing,Textbox,,,FALSE,FALSE,E2
+23,Photo or Video or Audio,Pavement Condition ,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,E3
+24,Distress in ,Pavement Condition ,Existing,Flexible Pavement or Rigid Pavement,,,FALSE,FALSE,E4
+25,Flexible Pavement,Pavement Condition ,Existing,Select,IRC Specification,If E4 = Flexible Pavement,FALSE,FALSE,E4.1
+26,Rigid Pavement,Pavement Condition ,Existing,Select,IRC Specification,If E4 = Rigid Pavement,FALSE,FALSE,E4.2
+27,Skidding due to ,Pavement Condition ,Existing,Radio Button,,,FALSE,FALSE,E5
+28,Comments,Pavement Condition ,Existing,Textbox,,,FALSE,FALSE,E6
+29,Critical observation,Pavement Condition ,Existing,,,,FALSE,FALSE,E7
+30,General observation,Pavement Condition ,Existing,,,,FALSE,FALSE,E8
+31,Severity ,Pavement Condition ,Existing,Select,IRC Specification,,TRUE,FALSE,E9
+32,Priority ,Pavement Condition ,Existing,Select,IRC Specification,,FALSE,FALSE,E10
+33,GPS Location,Curves,Existing,Lat Long,,,TRUE,FALSE,F1
+34,Chainage (km),Curves,Existing,Textbox,,,FALSE,FALSE,F2
+35,Photo or Video or Audio,Curves,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,F3
+36,Extra widening ,Curves,Existing,Radio Button,IRC:SP:73-2018 Clause 2.7.2  ,,TRUE,FALSE,F4
+37,Safety barrier,Curves,Existing,Radio Button,IRC:SP:73-2018 clause 9.7 Safety Barriers,,TRUE,FALSE,F5
+38,Dangerous sharp curves after crests  long downgrades,Curves,Existing,Radio Button,,,FALSE,FALSE,F6
+39,Safety barrier extended by more than 100m at the start and end of the sharp curve,Curves,Existing,Radio Button,IRC 119:2015 Clause 4.3.7 On sharp curves  the W-beam barriers should extend to 100 m beyond the beginning and end of the curves,If F6= Yes,TRUE,FALSE,F6.1
+40,Road Marking Issues,Curves,Existing,,,Pop up Section G when clicked,FALSE,FALSE,F7
+41,Comments,Curves,Existing,Textbox,,,FALSE,FALSE,F8
+42,Critical observation,Curves,Existing,,,,FALSE,FALSE,F9
+43,General observation,Curves,Existing,,,,FALSE,FALSE,F10
+44,Severity ,Curves,Existing,Select,IRC Specification,,FALSE,FALSE,F11
+45,Priority ,Curves,Existing,Select,IRC Specification,,FALSE,FALSE,F12
+46,GPS Location,Road Markings,Existing,Lat Long,,,TRUE,FALSE,G1
+47,Chainage (km),Road Markings,Existing,Textbox,,,FALSE,FALSE,G2
+48,Photo or Video or Audio,Road Markings,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,G3
+49,Type,Road Markings,Existing,Select,IRC Specifications,,TRUE,FALSE,G4
+50,Issues,Road Markings,Existing,Select,,,TRUE,FALSE,G5
+51,Comments,Road Markings,Existing,Textbox,,,FALSE,FALSE,G6
+52,Critical observation,Road Markings,Existing,,,,FALSE,FALSE,G7
+53,General observation,Road Markings,Existing,,,,FALSE,FALSE,G8
+54,Severity ,Road Markings,Existing,Select,IRC Specification,,FALSE,FALSE,G9
+55,Priority ,Road Markings,Existing,Select,IRC Specification,,FALSE,FALSE,G10
+56,GPS Location,Signage,Existing,Lat Long,,,TRUE,FALSE,H1
+57,Chainage (km),Signage,Existing,Textbox,,,FALSE,FALSE,H2
+58,Photo or Video or Audio,Signage,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,H3
+59,Type,Signage,Existing,Select,,,TRUE,FALSE,H4
+60,Name ,Signage,Existing,Select,,,TRUE,FALSE,H5
+61,Issues,Signage,Existing,Select,,,TRUE,FALSE,H6
+62,Obstruction due to,Signage,Existing,Select,,If H6 = Visibility Obstructed ,TRUE,FALSE,H7
+63,Horizontal Distance (m),Signage,Existing,Textbox,IRC:67-2022 clause 4.2 on  all roads with or without kerb and with shoulder  the extreme edge of the ground mounted sign adjacent to the roadway shall be at a distance of 600 mm to 3 m from the edge of the earthen shoulder depending upon the available Right of Way.,If H6 = Inadequate horizontal distance from the road edge,TRUE,FALSE,H8
+64,Comments,Signage,Existing,Textbox,,,FALSE,FALSE,H9
+65,Critical observation,Signage,Existing,,,,FALSE,FALSE,H10
+66,General observation,Signage,Existing,,,,FALSE,FALSE,H11
+67,Severity ,Signage,Existing,Select,IRC Specification,,FALSE,FALSE,H12
+68,Priority ,Signage,Existing,Select,IRC Specification,,FALSE,FALSE,H13
+69,Junctions or Intersections,Intersections or Rotary or Interchange,Existing,,,,,FALSE,J1
+70,GPS Location,Intersections or Rotary or Interchange,Existing,Lat Long,,,TRUE,FALSE,J1.1
+71,Chainage (km),Intersections or Rotary or Interchange,Existing,Textbox,,,FALSE,FALSE,J1.2
+72,Photo or Video or Audio,Intersections or Rotary or Interchange,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,J1.3
+73,Type ,Intersections or Rotary or Interchange,Existing,Select,IRC SP 041:1994 Clause 1.4.1 Generally intersections can be classified into three categories depending on the traffic conditions. (1) Uncontrolled Intersections at-grade  (2) Intersection with Priority Control  (3) Time separated intersection or Signalised Intersections at-Grade  (4) Space Separated Intersection or Grade Separated Intersections,,TRUE,FALSE,J1.4
+74,Shape ,Intersections or Rotary or Interchange,Existing,Select,IRC SP 041:1994 Clause 1.4.3 Road Intersections occur in multiplicity of shapes. They can  however  be divided into seven basic forms - T  Y  Scissor  Cross  Staggered  Staggered and skewed  and multiway.,,TRUE,FALSE,J1.5
+75,Auxiliary Lane (Major Road),Intersections or Rotary or Interchange,Existing,Radio Button,IRC SP 041:1994 Clause 4.8,,FALSE,FALSE,J1.6
+76,Channelizing Island ,Intersections or Rotary or Interchange,Existing,Radio Button,IRC SP 041:1994 Fig 4.17 Clause 4.11.2 or 4.11.3,,FALSE,FALSE,J1.7
+77,On,Intersections or Rotary or Interchange,Existing,Radio Button,,If J1.7= Provided,FALSE,FALSE,J1.7.1
+78,Type,Intersections or Rotary or Interchange,Existing,Radio Button,,If J1.7= Provided,FALSE,FALSE,J1.7.2
+79,Issues,Intersections or Rotary or Interchange,Existing,Select,,If J1.7= Provided,FALSE,FALSE,J1.7.3
+80,On,Intersections or Rotary or Interchange,Existing,Radio Button,,If J1.7= Not Provided,FALSE,FALSE,J1.7.4
+81,Blinkers,Intersections or Rotary or Interchange,Existing,Radio Button,,If J1.4= Uncontrolled,FALSE,FALSE,J1.8
+82,Issues,Intersections or Rotary or Interchange,Existing,Select,,If J1.8= Yes,FALSE,FALSE,J1.8.1
+83,Signage Issues on,Intersections or Rotary or Interchange,Existing,Radio Button,,Pop up Section H when clicked on either options,FALSE,FALSE,J1.9
+84,Road Marking Issues on,Intersections or Rotary or Interchange,Existing,Radio Button,,Pop up Section G when clicked on either options,FALSE,FALSE,J1.10
+85,TCM Issues on,Intersections or Rotary or Interchange,Existing,Radio Button,,Pop up Section Q when clicked on either options,FALSE,FALSE,J1.11
+86,Pavement Condition Issues on,Intersections or Rotary or Interchange,Existing,Radio Button,,Pop up Section I when clicked on either options,FALSE,FALSE,J1.12
+87,VRU Facilities Issues on,Intersections or Rotary or Interchange,Existing,Radio Button,,Pop up Section K when  clicked on either options,FALSE,FALSE,J1.13
+88,Visibility obstruction on,Intersections or Rotary or Interchange,Existing,Radio Button,IRC SP 041:1994 Clause 4.10.3. (Fig 4.16 4.11.2 or 4.11.3) All sight distance obstructions  like bushes  trees and hoardings in the visibility triangle should be removed to improve safety. Fig. 4.16 shows the desirable amount of trimming to be done to hedges and trees at intersections.,,FALSE,FALSE,J1.14
+89,Type,Intersections or Rotary or Interchange,Existing,Select,,,FALSE,FALSE,J1.14.1
+90,Drainage Issues on,Intersections or Rotary or Interchange,Existing,Radio Button,,Pop up Section M when  clicked on either options,FALSE,FALSE,J1.15
+91,Lighting Issues on,Intersections or Rotary or Interchange,Existing,Radio Button,,Pop up Section N when  clicked on either options,FALSE,FALSE,J1.16
+92,Violations on,Intersections or Rotary or Interchange,Existing,Radio Button,,Pop up Section R when  clicked on either options,FALSE,FALSE,J1.17
+93,Traffic Signal Issue,Intersections or Rotary or Interchange,Existing,Select,,If J1.4= Signalised ,FALSE,FALSE,J1.18
+94,Signboard provided,Intersections or Rotary or Interchange,Existing,Radio Button,,Pop up Section H when clicked on either options,FALSE,FALSE,J1.18.1
+95,Comments,Intersections or Rotary or Interchange,Existing,Textbox,,,FALSE,FALSE,J1.19
+96,Critical observation,Intersections or Rotary or Interchange,Existing,,,,FALSE,FALSE,J1.20
+97,General observation,Intersections or Rotary or Interchange,Existing,,,,FALSE,FALSE,J1.21
+98,Severity ,Intersections or Rotary or Interchange,Existing,Select,Select,,FALSE,FALSE,J1.22
+99,Priority ,Intersections or Rotary or Interchange,Existing,Select,Select,,FALSE,FALSE,J1.23
+100,Rotary or Roundabout,Intersections or Rotary or Interchange,Existing,,,,,FALSE,J2
+101,GPS Location,Intersections or Rotary or Interchange,Existing,Lat Long,,,TRUE,FALSE,J2.1
+102,Chainage (km),Intersections or Rotary or Interchange,Existing,Textbox,,,FALSE,FALSE,J2.2
+103,Photo or Video or Audio,Intersections or Rotary or Interchange,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,J2.3
+104,GPS Location,Intersections or Rotary or Interchange,Existing,Lat Long,,,TRUE,FALSE,J3.1
+105,Chainage (km),Intersections or Rotary or Interchange,Existing,Textbox,,,FALSE,FALSE,J3.2
+106,Photo or Video or Audio,Intersections or Rotary or Interchange,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,J3.3
+107,Footpath ,VRU Facilities,Existing,,,,,FALSE,J1
+108,GPS Location,VRU Facilities,Existing,Lat Long,,,TRUE,FALSE,J1.1
+109,Chainage (km),VRU Facilities,Existing,Textbox,,,FALSE,FALSE,J1.2
+110,Photo or Video or Audio,VRU Facilities,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,J1.3
+111,1.5m wide footpath ,VRU Facilities,Existing,Radio Button,,,FALSE,FALSE,J1.4
+112,Width of footpath (m),VRU Facilities,Existing,Textbox,,If J1.4 = No,FALSE,FALSE,J1.4.1
+113,Guardrails ,VRU Facilities,Existing,Radio Button,,,FALSE,FALSE,J1.5
+114,Tactile warning strips(on kerb side edge of the slope),VRU Facilities,Existing,Radio Button,IRC 103-2012 Clause 6.2.3 Tactile warning strip shall be provided on the kerb side edge of the slope so that persons with vision impairment do not accidentally walk onto the road. ,,FALSE,FALSE,J1.6
+115,Obstruction in walking zone,VRU Facilities,Existing,Radio Button,,,FALSE,FALSE,J1.7
+116,Bollards availability,VRU Facilities,Existing,Radio Button,,,FALSE,FALSE,J1.8
+117,Comments,VRU Facilities,Existing,Textbox,,,FALSE,FALSE,J1.9
+118,Critical observation,VRU Facilities,Existing,,,,FALSE,FALSE,J1.10
+119,General observation,VRU Facilities,Existing,,,,FALSE,FALSE,J1.11
+120,Severity ,VRU Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,J1.12
+121,Priority ,VRU Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,J1.13
+122,Pedestrian crossing,VRU Facilities,Existing,,,,,FALSE,J2
+123,GPS Location,VRU Facilities,Existing,Lat Long,,,TRUE,FALSE,J2.1
+124,Chainage (km),VRU Facilities,Existing,Textbox,,,FALSE,FALSE,J2.2
+125,Photo or Video or Audio,VRU Facilities,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,J2.3
+126,Min. 2m wide pedestrian crossing ,VRU Facilities,Existing,Radio Button,IRC 103- 2022 Clause 6.7 Pedestrain crossing should be minimum 2m wide. 4m wide crossings are recommended on streets with high pedestrian volumes such as schools  transit station   shopping complex etc. , ,FALSE,FALSE,J2.4
+127,crosswalks free from obstructions,VRU Facilities,Existing,Radio Button,IRC 103-2012 Clause 6.7.4 Adequate visibility  freedom from obstructions  and sufficient space for waiting are the other important requirements for the location of crosswalks., ,FALSE,FALSE,J2.5
+128,waiting space near cross walks,VRU Facilities,Existing,Radio Button,IRC 103-2012 Clause 6.7.4  Adequate visibility  freedom from obstructions  and sufficient space for waiting are the other important requirements for the location of crosswalks. , ,FALSE,FALSE,J2.6
+129,Street lighting for night time visibility,VRU Facilities,Existing,Radio Button,IRC 103-2022 Clause 6.6 The entire ROW width should be well-lit. Warm white LED light is preferred. 25-35 lux level of lighting should be available on footpath., ,FALSE,FALSE,J2.7
+130," ""STOP"" line at  signalized crossing ",VRU Facilities,Existing,Radio Button,IRC 35-2015 Clause 6.1.1 Stop line indicates the location on the ground beyond which the vehicles should not proceed where it is in laid such as at the vicinity of traffic signals  pedestrian zebra crossings  and on the minor road approaches merging with major roads it is provided in conjunction with the stop sign. , ,FALSE,FALSE,J2.8
+131,Min. 1.2 m wide pedestrian refuge at median ,VRU Facilities,Existing,Radio Button,IRC 103-2022 Clause 6.7.1 Pedestrian Refuge at Median  provides safe space for pedestrains to wait while crossing the divided carriageway. It is recommended that the minimum median width be 1.2 m and 2 m median width should be provided for a cyclist to wait., ,FALSE,FALSE,J2.9
+132,Safety bollards in the refuge islands  ,VRU Facilities,Existing,Radio Button,IRC 103-2012 Clause 6.7.3.3  Fig.26,Display L2.8=Yes,FALSE,FALSE,J2.10
+133,Comments,VRU Facilities,Existing,Textbox,,,FALSE,FALSE,J2.11
+134,Critical observation,VRU Facilities,Existing,,,,FALSE,FALSE,J2.12
+135,General observation,VRU Facilities,Existing,,,,FALSE,FALSE,J2.13
+136,Severity ,VRU Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,J2.14
+137,Priority ,VRU Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,J2.15
+138,Foot over bridge,VRU Facilities,Existing,,,,,FALSE,J3
+139,GPS Location,VRU Facilities,Existing,Lat Long,,,TRUE,FALSE,J3.1
+140,Chainage (km),VRU Facilities,Existing,Textbox,,,FALSE,FALSE,J3.2
+141,Photo or Video or Audio,VRU Facilities,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,J3.3
+142,provision  for  physically disabled persons SVUP or Foot over bridge (FOB),VRU Facilities,Existing,Radio Button,IRC: SP:73-2018 Clause 2.13. 2 A SVUP or Foot Over Bridge may not be necessary within a distance of 2 km from Vehicular underpasses or overpasses and Light Vehicular Underpasses. The pedestrian crossings (SVUP or FOB) shall have provision for the movement of physically challenged persons, ,FALSE,FALSE,J3.4
+143,Comments,VRU Facilities,Existing,Textbox,,,FALSE,FALSE,J3.5
+144,Critical observation,VRU Facilities,Existing,,,,FALSE,FALSE,J3.6
+145,General observation,VRU Facilities,Existing,,,,FALSE,FALSE,J3.7
+146,Severity ,VRU Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,J3.8
+147,Priority ,VRU Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,J3.9
+148,Subway,VRU Facilities,Existing,,,,,FALSE,J4 
+149,GPS Location,VRU Facilities,Existing,Lat Long,,,TRUE,FALSE,J4.1
+150,Chainage (km),VRU Facilities,Existing,Textbox,,,FALSE,FALSE,J4.2
+151,Photo or Video or Audio,VRU Facilities,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,J4.3
+152,Guard rails availability,VRU Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause 9.8.3e) Overpass  Subway  etc.: Guardrails shall be provided at these  locations in order to compel the pedestrians to use the facilities  provided for them., ,FALSE,FALSE,J4.4
+153,Drainage issues,VRU Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause 6.7.3 Where rain water cannot flow into the drainage system by gravity due to the requirement of depressed road to get minimum head room  necessary provision for  drainage by vertical drains and or or pumping shall be made so that there is no disruption  of traffic through such location on account of waterlogging or flooding of underpass or subway. , ,FALSE,FALSE,J4.5
+154,Facility,VRU Facilities,Existing,Select,, ,FALSE,FALSE,J4.6
+155,Availability of Shops,VRU Facilities,Existing,Radio Button,, ,FALSE,FALSE,J4.7
+156,Comments,VRU Facilities,Existing,Textbox,,,FALSE,FALSE,J4.8
+157,Critical observation,VRU Facilities,Existing,,,,FALSE,FALSE,J4.9
+158,General observation,VRU Facilities,Existing,,,,FALSE,FALSE,J4.10
+159,Severity ,VRU Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,J4.11
+160,Priority ,VRU Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,J4.12
+161,Culvert,Structures,Existing,,,,,FALSE,K1
+162,GPS Location,Structures,Existing,Lat Long,,,TRUE,FALSE,K1.1
+163,Chainage (km),Structures,Existing,Textbox,,,FALSE,FALSE,K1.2
+164,Photo or Video or Audio,Structures,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,K1.3
+165,Lanes,Structures,Existing,Select,, ,FALSE,FALSE,K1.4
+166,Crash barries at approaches,Structures,Existing,Radio Button,IRC 5:2015 Clause 109.6.1 Suitably Designed Crash Barriers shall Generally be Located on: a) All high level bridges  flyovers  interchanges and ROB’s. b) Approaches to bridge structure  where embankment height is more than 3 m c) High containment barrier shall be provided mainly on bridges on busy railway lines  complex interchanges and other similar hazardous and high risk locations. ,,FALSE,FALSE,K1.5
+167,End treatment as per IRC,Structures,Existing,Radio Button,IRC:SP:73-2018 Clause 9.7.2 Road side steel barriers b)End treatment for steel barrier: Fig 9.12 and 9.13,If K1.5 = Yes,FALSE,FALSE,K1.5.1
+168,Delineators,Structures,Existing,Radio Button,,,FALSE,FALSE,K1.6
+169,Issues,Structures,Existing,Textbox,,If K1.6 = Yes,FALSE,FALSE,K1.6.1
+170,Adequate Head wall  or  parapet wall,Structures,Existing,Radio Button,,,FALSE,FALSE,K1.7
+171,Comments,Structures,Existing,Textbox,,,FALSE,FALSE,K1.8
+172,Critical observation,Structures,Existing,,,,FALSE,FALSE,K1.9
+173,General observation,Structures,Existing,,,,FALSE,FALSE,K1.10
+174,Severity ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K1.11
+175,Priority ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K1.12
+176,Bridges,Structures,Existing,,,,,FALSE,K2
+177,GPS Location,Structures,Existing,Lat Long,,,TRUE,FALSE,K2.1
+178,Chainage (km),Structures,Existing,Textbox,,,FALSE,FALSE,K2.2
+179,Photo or Video or Audio,Structures,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,K2.3
+180,Lanes,Structures,Existing,Select,IRC 5:2015 Clause 104.3.1, ,FALSE,FALSE,K2.4
+181,Footpath ,Structures,Existing,Radio Button,, ,FALSE,FALSE,K2.5
+182,Min. 1.5m wide,Structures,Existing,Radio Button,IRC:5-2015 Clause 104.3.6 When a footpath is provided  its clear width shall not be less than 1.5 m. For urban and populated areas having large concentration of pedestrian traffic  the width of the footpath shall be suitably increased. ,,FALSE,FALSE,K2.5.1
+183,wide (m),Structures,Existing,Textbox,,If K2.5.1 = No,FALSE,FALSE,K2.5.1.1
+184,Railings,Structures,Existing,Radio Button,IRC:SP:73-2018 Clause 7.17 Safety Barriers iv) On the existing bridges which are to be retained with or without widening crash barriers on the inside and pedestrian railings on the outer sides of the footpaths shall be provided,,FALSE,FALSE,K2.5.2
+185,Min. 1.1m high,Structures,Existing,Radio Button,IRC:5-2015 Clause 109.7.2.3 :3 Railings or parapets shall have a minimum 1.1 meter height above the adjacent  roadway or footway safety kerb surface. For bridges exceeding 300 meters in length  the  height of railings  determined in the manner stipulated above  shall be increased by 0.1 meter.  For ROBs across railway lines  the height shall be governed by Railway's requirements ,If K2.5.2 = Yes,FALSE,FALSE,K2.5.2.1
+186,Any failures,Structures,Existing,Radio Button,,,FALSE,FALSE,K2.5.3
+187,concrete crash barriers,Structures,Existing,Radio Button,,If K2.5 = No,FALSE,FALSE,K2.5.4
+188,crash barrier on approaches where embankment height >3 m ,Structures,Existing,Radio Button,IRC 5:2015  Clause 109.6.1 Suitably Designed Crash Barriers shall Generally be Located on: a) All high level bridges  flyovers  interchanges and ROB’s. b) Approaches to bridge structure  where embankment height is more than 3 m c) High containment barrier shall be provided mainly on bridges on busy railway lines  complex interchanges and other similar hazardous and high risk locations. ,,FALSE,FALSE,K2.6
+189,End treatment as per IRC,Structures,Existing,Radio Button,,If K2.6 = Yes,FALSE,FALSE,K2.6.1
+190,Flashing beacons ,Structures,Existing,Radio Button, IRC 5:2015 Clause 111.2 Signals a) Signals  near or on the bridges  shall be provided as per specific requirement of the any particular project  conforming to the requirements of IRC:93. b) Signals can be either electrically operated or solar powered. c) Flashing beacons shall be provided at the beginning of median or crash barrier  clearly indicating start of a bridge or flyover or loop emerging from main carriageway. Provision of cables for power supply to any such signal shall be considered in addition to the regular illumination ,,FALSE,FALSE,K2.7
+191,Delineators,Structures,Existing,Radio Button,IRC 5:2015 Clause 111.4 Delineators (also referred to as guideposts) shall be provided as per safety requirements. These shall be installed along the side of the roadway in a series to indicate the alignment of the roadway. Delineators are particularly beneficial at locations where the alignment might be confusing or unexpected  such as at lane reduction  transitions and curves.,,FALSE,FALSE,K2.8
+192,Lighting ,Structures,Existing,Radio Button,,,FALSE,FALSE,K2.9
+193,50 lux illumination,Structures,Existing,Radio Button, IRC 5:2015 Clause 110.2 Illumination plan for bridges  grade separators  under-passes and interchanges  shall be considered during initial planning. The arrangement of the masts or poles i.e. its height and spacing  should be such as to achieve the following values of Average Maintained  Luminance  Eav:Main Carriageway=50 lux  Footpath or Cycle Track=20 lux  Underpass= 70 lux,If K2.9 = Yes,FALSE,FALSE,K2.9.1
+194,Comments,Structures,Existing,Textbox,,,FALSE,FALSE,K2.10
+195,Critical observation,Structures,Existing,,,,FALSE,FALSE,K2.11
+196,General observation,Structures,Existing,,,,FALSE,FALSE,K2.12
+197,Severity ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K2.13
+198,Priority ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K2.14
+199,Vehicular Underpass (VUP),Structures,Existing,,,,,FALSE,K3
+200,GPS Location,Structures,Existing,Lat Long,,,TRUE,FALSE,K3.1
+201,Chainage (km),Structures,Existing,Textbox,,,FALSE,FALSE,K3.2
+202,Photo or Video or Audio,Structures,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,K3.3
+203,Main carriageway,Structures,Existing,,,,,FALSE,K3.4
+204,Carriageway width,Structures,Existing,Textbox, IRC:5-2015 Clause 104.3.1 the width of carriageway shall not be less than 4.25 m for a single lane bridge  7.5 m for a two-lane bridge and shall be increased by 3.5 m for every additional lane of traffic for a multiple lane bridge ,,FALSE,FALSE,K3.4.1
+205,Footpath ,Structures,Existing,Radio Button,, ,FALSE,FALSE,K3.4.2
+206,Min. 1.5m wide,Structures,Existing,Radio Button,IRC:5-2015 Clause 104.3.6 When a footpath is provided  its clear width shall not be less than 1.5 m. For urban and populated areas having large concentration of pedestrian traffic  the width of the footpath shall be suitably increased. ,,FALSE,FALSE,K3.4.2.1
+207,wide (m),Structures,Existing,Textbox,,If K3.4.2.1 = No,FALSE,FALSE,K3.4.2.1.1
+208,Railings,Structures,Existing,Radio Button,IRC:SP:73-2018 Clause 7.17 Safety Barriers iv) On the existing bridges which are to be retained with or without widening crash barriers on the inside and pedestrian railings on the outer sides of the footpaths shall be provided,,FALSE,FALSE,K3.4.2.2
+209,Min. 1.1m high,Structures,Existing,Radio Button,IRC:5-2015 Clause 109.7.2.3 :3 Railings or parapets shall have a minimum 1.1 meter height above the adjacent  roadway or footway safety kerb surface. For bridges exceeding 300 meters in length  the  height of railings  determined in the manner stipulated above  shall be increased by 0.1 meter.  For ROBs across railway lines  the height shall be governed by Railway's requirements ,If K3.4.2.2 = Yes,FALSE,FALSE,K3.4.2.2.1
+210,Any failures on footpath,Structures,Existing,Radio Button,,,FALSE,FALSE,K3.4.2.3
+211,concrete crash barriers,Structures,Existing,Radio Button,,If K3.4.2 = No,FALSE,FALSE,K3.4.2.4
+212,crash barrier on approaches where embankment height >3 m ,Structures,Existing,Radio Button,IRC 5:2015  Clause 109.6.1 Suitably Designed Crash Barriers shall Generally be Located on: a) All high level bridges  flyovers  interchanges and ROB’s. b) Approaches to bridge structure  where embankment height is more than 3 m c) High containment barrier shall be provided mainly on bridges on busy railway lines  complex interchanges and other similar hazardous and high risk locations. ,,FALSE,FALSE,K3.4.3
+213,End treatment as per IRC,Structures,Existing,Radio Button,,If K3.4.3 = Yes,FALSE,FALSE,K3.4.3.1
+214,Flashing beacons ,Structures,Existing,Radio Button, IRC 5:2015 Clause 111.2 Signals a) Signals  near or on the bridges  shall be provided as per specific requirement of the any particular project  conforming to the requirements of IRC:93. b) Signals can be either electrically operated or solar powered. c) Flashing beacons shall be provided at the beginning of median or crash barrier  clearly indicating start of a bridge or flyover or loop emerging from main carriageway. Provision of cables for power supply to any such signal shall be considered in addition to the regular illumination ,,FALSE,FALSE,K3.4.4
+215,Delineators,Structures,Existing,Radio Button,IRC 5:2015 Clause 111.4 Delineators (also referred to as guideposts) shall be provided as per safety requirements. These shall be installed along the side of the roadway in a series to indicate the alignment of the roadway. Delineators are particularly beneficial at locations where the alignment might be confusing or unexpected  such as at lane reduction  transitions and curves.,,FALSE,FALSE,K3.4.5
+216,Lighting ,Structures,Existing,Radio Button,,,FALSE,FALSE,K3.4.6
+217,50 lux illumination,Structures,Existing,Radio Button, IRC 5:2015 Clause 110.2 Illumination plan for bridges  grade separators  under-passes and interchanges  shall be considered during initial planning. The arrangement of the masts or poles i.e. its height and spacing  should be such as to achieve the following values of Average Maintained  Luminance  Eav:Main Carriageway=50 lux  Footpath or Cycle Track=20 lux  Underpass= 70 lux,If K3.4.6 = Yes,FALSE,FALSE,K3.4.6.1
+218,Comments,Structures,Existing,Textbox,,,FALSE,FALSE,K3.4.7
+219,Critical observation,Structures,Existing,,,,FALSE,FALSE,K3.4.8
+220,General observation,Structures,Existing,,,,FALSE,FALSE,K3.4.9
+221,Severity ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K3.4.10
+222,Priority ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K3.4.11
+223,Service Road or  Slip Road,Structures,Existing,,,,,FALSE,K3.5
+224,GPS Location,Structures,Existing,Lat Long,,,TRUE,FALSE,K3.5.1
+225,Chainage (km),Structures,Existing,Textbox,,,FALSE,FALSE,K3.5.2
+226,Photo or Video or Audio,Structures,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,K3.5.3
+227,Min. 7m wide service road ,Structures,Existing,Radio Button,"The width of service roads should be generally 7 mts but in any
+case not less than 5.5. mts depending on availability of ROW.",,FALSE,FALSE,K3.5.4
+228,Wide (m),Structures,Existing,Textbox,,If K3.5.4 = No,FALSE,FALSE,K3.5.4.1
+229,Traffic travel direction,Structures,Existing,Select,, ,FALSE,FALSE,K3.5.5
+230,Separator Width (m),Structures,Existing,Textbox,,,FALSE,FALSE,K3.5.6
+231,Posted Speed Limit (Kmph),Structures,Existing,Textbox,,,FALSE,FALSE,K3.5.7
+232,12m horizontal clearance ,Structures,Existing,Radio Button,IRC:SP:73-2018 Clause 2.10.1 Lateral clearance at a underpass,,FALSE,FALSE,K3.5.8
+233,horizontal clearance (m),Structures,Existing,Textbox,,,FALSE,FALSE,K3.5.8.1
+234,5.5m vertical clearance,Structures,Existing,Radio Button,IRC:SP:73-2018 Clause 2.10.2 Vertical clearance at a underpass,,FALSE,FALSE,K3.5.9
+235,vertical clearance (m),Structures,Existing,Textbox,,,FALSE,FALSE,K3.5.9.1
+236,Foot Path,Structures,Existing,Radio Button,,,FALSE,FALSE,K3.5.10
+237,Footpath width (m),Structures,Existing,Textbox,,,FALSE,FALSE,K3.5.10.1
+238,Foot path height (m),Structures,Existing,Textbox,,,FALSE,FALSE,K3.5.10.2
+239,Obstruction at all merges and diverges,Structures,Existing,Radio Button,,,FALSE,FALSE,K3.5.11
+240, Entry and exit taper lengths as per IRC,Structures,Existing,Radio Button,,,FALSE,FALSE,K3.5.12
+241,Lighting ,Structures,Existing,Radio Button,IRC:SP:73-2018 Clause 12.4.3 Locations where Lighting is to be provided  vi) Built-up sections on the project highway both in the median of main carriageway and on the service roads on either side,,FALSE,FALSE,K3.5.13
+242,Comments,Structures,Existing,Textbox,,,FALSE,FALSE,K3.5.14
+243,Critical observation,Structures,Existing,,,,FALSE,FALSE,K3.5.15
+244,General observation,Structures,Existing,,,,FALSE,FALSE,K3.5.16
+245,Severity ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K3.5.17
+246,Priority ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K3.5.18
+247,Vehicular Overpass (VOP) ,Structures,Existing,,,,,FALSE,K4
+248,GPS Location,Structures,Existing,Lat Long,,,TRUE,FALSE,K4.1
+249,Chainage (km),Structures,Existing,Textbox,,,FALSE,FALSE,K4.2
+250,Photo or Video or Audio,Structures,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,K4.3
+251,Carriageway width,Structures,Existing,Textbox, IRC:5-2015 Clause 104.3.1 the width of carriageway shall not be less than 4.25 m for a single lane bridge  7.5 m for a two-lane bridge and shall be increased by 3.5 m for every additional lane of traffic for a multiple lane bridge ,,FALSE,FALSE,K4.4
+252,Lanes,Structures,Existing,Select,IRC 5:2015 Clause 104.3.1, ,FALSE,FALSE,K4.5
+253, full roadway width carried through overpass ,Structures,Existing,Radio Button,,,FALSE,FALSE,K4.5
+254,5.5m vertical clearance ,Structures,Existing,Radio Button,,,FALSE,FALSE,K4.6
+255,vertical clearance (m),Structures,Existing,Textbox,,,FALSE,FALSE,K4.6.1
+256,Footpath ,Structures,Existing,Radio Button,, ,FALSE,FALSE,K4.7
+257,Min. 1.5m wide,Structures,Existing,Radio Button,IRC:5-2015 Clause 104.3.6 When a footpath is provided  its clear width shall not be less than 1.5 m. For urban and populated areas having large concentration of pedestrian traffic  the width of the footpath shall be suitably increased. ,,FALSE,FALSE,K4.7.1
+258,wide (m),Structures,Existing,Textbox,,If K4.7.1 = No,FALSE,FALSE,K4.7.1.1
+259,Railings,Structures,Existing,Radio Button,IRC:SP:73-2018 Clause 7.17 Safety Barriers iv) On the existing bridges which are to be retained with or without widening crash barriers on the inside and pedestrian railings on the outer sides of the footpaths shall be provided,,FALSE,FALSE,K4.7.2
+260,Min. 1.1m high,Structures,Existing,Radio Button,IRC:5-2015 Clause 109.7.2.3 :3 Railings or parapets shall have a minimum 1.1 meter height above the adjacent  roadway or footway safety kerb surface. For bridges exceeding 300 meters in length  the  height of railings  determined in the manner stipulated above  shall be increased by 0.1 meter.  For ROBs across railway lines  the height shall be governed by Railway's requirements ,If K4.7.2 = Yes,FALSE,FALSE,K4.7.2.1
+261,Any failures on footpath,Structures,Existing,Radio Button,,,FALSE,FALSE,K4.7.3
+262,concrete crash barriers,Structures,Existing,Radio Button,,If K4.7 = No,FALSE,FALSE,K4.7.4
+263,crash barrier on approaches where embankment height >3 m ,Structures,Existing,Radio Button,IRC 5:2015  Clause 109.6.1 Suitably Designed Crash Barriers shall Generally be Located on: a) All high level bridges  flyovers  interchanges and ROB’s. b) Approaches to bridge structure  where embankment height is more than 3 m c) High containment barrier shall be provided mainly on bridges on busy railway lines  complex interchanges and other similar hazardous and high risk locations. ,,FALSE,FALSE,K4.8
+264,End treatment as per IRC,Structures,Existing,Radio Button,,If K4.8 = Yes,FALSE,FALSE,K4.8.1
+265,Flashing beacons ,Structures,Existing,Radio Button, IRC 5:2015 Clause 111.2 Signals a) Signals  near or on the bridges  shall be provided as per specific requirement of the any particular project  conforming to the requirements of IRC:93. b) Signals can be either electrically operated or solar powered. c) Flashing beacons shall be provided at the beginning of median or crash barrier  clearly indicating start of a bridge or flyover or loop emerging from main carriageway. Provision of cables for power supply to any such signal shall be considered in addition to the regular illumination ,,FALSE,FALSE,K4.9
+266,Delineators,Structures,Existing,Radio Button,IRC 5:2015 Clause 111.4 Delineators (also referred to as guideposts) shall be provided as per safety requirements. These shall be installed along the side of the roadway in a series to indicate the alignment of the roadway. Delineators are particularly beneficial at locations where the alignment might be confusing or unexpected  such as at lane reduction  transitions and curves.,,FALSE,FALSE,K4.10
+267,Lighting ,Structures,Existing,Radio Button,,,FALSE,FALSE,K4.11
+268,50 lux illumination,Structures,Existing,Radio Button, IRC 5:2015 Clause 110.2 Illumination plan for bridges  grade separators  under-passes and interchanges  shall be considered during initial planning. The arrangement of the masts or poles i.e. its height and spacing  should be such as to achieve the following values of Average Maintained  Luminance  Eav:Main Carriageway=50 lux  Footpath or Cycle Track=20 lux  Underpass= 70 lux,If K4.11 = Yes,FALSE,FALSE,K4.11.1
+269,Comments,Structures,Existing,Textbox,,,FALSE,FALSE,K4.12
+270,Critical observation,Structures,Existing,,,,FALSE,FALSE,K4.13
+271,General observation,Structures,Existing,,,,FALSE,FALSE,K4.14
+272,Severity ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K4.15
+273,Priority ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K4.16
+274,Road Under Bridge (ROB),Structures,Existing,,,,,FALSE,K5
+275,GPS Location,Structures,Existing,Lat Long,,,TRUE,FALSE,K5.1
+276,Chainage (km),Structures,Existing,Textbox,,,FALSE,FALSE,K5.2
+277,Photo or Video or Audio,Structures,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,K5.3
+278,Lanes,Structures,Existing,Select,IRC 5:2015 Clause 104.3.1, ,FALSE,FALSE,K5.4
+279,carriageway width < 7.5 m,Structures,Existing,Radio Button, IRC:5-2015 Clause 104.3.1 the width of carriageway shall not be less than 4.25 m for a single lane bridge  7.5 m for a two-lane bridge and shall be increased by 3.5 m for every additional lane of traffic for a multiple lane bridge , ,FALSE,FALSE,K5.5
+280,Width (m),Structures,Existing,Textbox,,If K5.5 = No,FALSE,FALSE,K5.5.1
+281,Footpath ,Structures,Existing,Radio Button,, ,FALSE,FALSE,K5.6
+282,Min. 1.5m wide,Structures,Existing,Radio Button,IRC:5-2015 Clause 104.3.6 When a footpath is provided  its clear width shall not be less than 1.5 m. For urban and populated areas having large concentration of pedestrian traffic  the width of the footpath shall be suitably increased. ,,FALSE,FALSE,K5.6.1
+283,wide (m),Structures,Existing,Textbox,,If K5.6.1 = No,FALSE,FALSE,K5.6.1.1
+284,Railings,Structures,Existing,Radio Button,IRC:SP:73-2018 Clause 7.17 Safety Barriers iv) On the existing bridges which are to be retained with or without widening crash barriers on the inside and pedestrian railings on the outer sides of the footpaths shall be provided,,FALSE,FALSE,K5.6.2
+285,Min. 1.1m high,Structures,Existing,Radio Button,IRC:5-2015 Clause 109.7.2.3 :3 Railings or parapets shall have a minimum 1.1 meter height above the adjacent  roadway or footway safety kerb surface. For bridges exceeding 300 meters in length  the  height of railings  determined in the manner stipulated above  shall be increased by 0.1 meter.  For ROBs across railway lines  the height shall be governed by Railway's requirements ,If K5.6.2 = Yes,FALSE,FALSE,K5.6.2.1
+286,Any failures on footpath,Structures,Existing,Radio Button,,,FALSE,FALSE,K5.6.3
+287,concrete crash barriers,Structures,Existing,Radio Button,,If K5.6 = No,FALSE,FALSE,K5.6.4
+288,crash barrier on approaches where embankment height >3 m ,Structures,Existing,Radio Button,IRC 5:2015  Clause 109.6.1 Suitably Designed Crash Barriers shall Generally be Located on: a) All high level bridges  flyovers  interchanges and ROB’s. b) Approaches to bridge structure  where embankment height is more than 3 m c) High containment barrier shall be provided mainly on bridges on busy railway lines  complex interchanges and other similar hazardous and high risk locations. ,,FALSE,FALSE,K5.7
+289,End treatment as per IRC,Structures,Existing,Radio Button,,If K5.7 = Yes,FALSE,FALSE,K5.7.1
+290,Flashing beacons ,Structures,Existing,Radio Button, IRC 5:2015 Clause 111.2 Signals a) Signals  near or on the bridges  shall be provided as per specific requirement of the any particular project  conforming to the requirements of IRC:93. b) Signals can be either electrically operated or solar powered. c) Flashing beacons shall be provided at the beginning of median or crash barrier  clearly indicating start of a bridge or flyover or loop emerging from main carriageway. Provision of cables for power supply to any such signal shall be considered in addition to the regular illumination ,,FALSE,FALSE,K5.8
+291,Delineators,Structures,Existing,Radio Button,IRC 5:2015 Clause 111.4 Delineators (also referred to as guideposts) shall be provided as per safety requirements. These shall be installed along the side of the roadway in a series to indicate the alignment of the roadway. Delineators are particularly beneficial at locations where the alignment might be confusing or unexpected  such as at lane reduction  transitions and curves.,,FALSE,FALSE,K5.9
+292,Lighting ,Structures,Existing,Radio Button,,,FALSE,FALSE,K5.10
+293,50 lux illumination,Structures,Existing,Radio Button, IRC 5:2015 Clause 110.2 Illumination plan for bridges  grade separators  under-passes and interchanges  shall be considered during initial planning. The arrangement of the masts or poles i.e. its height and spacing  should be such as to achieve the following values of Average Maintained  Luminance  Eav:Main Carriageway=50 lux  Footpath or Cycle Track=20 lux  Underpass= 70 lux,If K5.10= Yes,FALSE,FALSE,K5.10.1
+294,Comments,Structures,Existing,Textbox,,,FALSE,FALSE,K5.11
+295,Critical observation,Structures,Existing,,,,FALSE,FALSE,K5.12
+296,General observation,Structures,Existing,,,,FALSE,FALSE,K5.13
+297,Severity ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K5.14
+298,Priority ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K5.15
+299,Road Under Bridge (RUB),Structures,Existing,,,,,FALSE,K6
+300,GPS Location,Structures,Existing,Lat Long,,,TRUE,FALSE,K6.1
+301,Chainage (km),Structures,Existing,Textbox,,,FALSE,FALSE,K6.2
+302,Photo or Video or Audio,Structures,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,K6.3
+303,Lanes,Structures,Existing,Select,IRC 5:2015 Clause 104.3.1, ,FALSE,FALSE,K6.4
+304,carriageway width < 7.5 m,Structures,Existing,Radio Button, IRC:5-2015 Clause 104.3.1 the width of carriageway shall not be less than 4.25 m for a single lane bridge  7.5 m for a two-lane bridge and shall be increased by 3.5 m for every additional lane of traffic for a multiple lane bridge , ,FALSE,FALSE,K6.5
+305,Width (m),Structures,Existing,Textbox,,If K6.5 = No,FALSE,FALSE,K6.5.1
+306,crash barrier on approaches where embankment height >3 m ,Structures,Existing,Radio Button,IRC 5:2015  Clause 109.6.1 Suitably Designed Crash Barriers shall Generally be Located on: a) All high level bridges  flyovers  interchanges and ROB’s. b) Approaches to bridge structure  where embankment height is more than 3 m c) High containment barrier shall be provided mainly on bridges on busy railway lines  complex interchanges and other similar hazardous and high risk locations. ,,FALSE,FALSE,K6.6
+307,End treatment as per IRC,Structures,Existing,Radio Button,,If K6.6 = Yes,FALSE,FALSE,K6.6.1
+308,Flashing beacons ,Structures,Existing,Radio Button, IRC 5:2015 Clause 111.2 Signals a) Signals  near or on the bridges  shall be provided as per specific requirement of the any particular project  conforming to the requirements of IRC:93. b) Signals can be either electrically operated or solar powered. c) Flashing beacons shall be provided at the beginning of median or crash barrier  clearly indicating start of a bridge or flyover or loop emerging from main carriageway. Provision of cables for power supply to any such signal shall be considered in addition to the regular illumination ,,FALSE,FALSE,K6.7
+309,Delineators,Structures,Existing,Radio Button,IRC 5:2015 Clause 111.4 Delineators (also referred to as guideposts) shall be provided as per safety requirements. These shall be installed along the side of the roadway in a series to indicate the alignment of the roadway. Delineators are particularly beneficial at locations where the alignment might be confusing or unexpected  such as at lane reduction  transitions and curves.,,FALSE,FALSE,K6.8
+310,Lighting ,Structures,Existing,Radio Button,,,FALSE,FALSE,K6.9
+311,50 lux illumination,Structures,Existing,Radio Button, IRC 5:2015 Clause 110.2 Illumination plan for bridges  grade separators  under-passes and interchanges  shall be considered during initial planning. The arrangement of the masts or poles i.e. its height and spacing  should be such as to achieve the following values of Average Maintained  Luminance  Eav:Main Carriageway=50 lux  Footpath or Cycle Track=20 lux  Underpass= 70 lux,If K6.9= Yes,FALSE,FALSE,K6.9.1
+312,Comments,Structures,Existing,Textbox,,,FALSE,FALSE,K6.10
+313,Critical observation,Structures,Existing,,,,FALSE,FALSE,K6.11
+314,General observation,Structures,Existing,,,,FALSE,FALSE,K6.12
+315,Severity ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K6.13
+316,Priority ,Structures,Existing,Select,IRC Specification,,FALSE,FALSE,K6.14
+317,Toll plaza,Facilities,Existing,,,,,FALSE,M1
+318,GPS Location,Facilities,Existing,Lat Long,,,TRUE,FALSE,M1.1
+319,Chainage (km),Facilities,Existing,Textbox,,,FALSE,FALSE,M1.2
+320,Photo or Video or Audio,Facilities,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,M1.3
+321,Overhead lane signs,Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause:10.9 Overhead Lane Signs (OHLS) shall be mounted on the leading edge of the canopy covering the toll lanes above the center of the lane to indicate to the user.,,FALSE,FALSE,M1.4
+322,Information sign board placed 1km ahead with a repeater sign 500m ahead,Facilities,Existing,Radio Button,IRC:SP 73-2018  Clause:10.9 It is necessary to alert the driver about the existence of toll plaza one km ahead with a repeater sign 500 m ahead ,,FALSE,FALSE,M1.5
+323,Min 16 no. lane is available,Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause:10.3 Adequate land for Toll Plaza shall be acquired to permit the provision of toll lanes for a projected peak hour traffic of 20 years subject to a minimum number of 8 toll lanes including all other buildings and structures to be accommodated at the Toll Plaza location,,FALSE,FALSE,M1.6
+324,No of lane,Facilities,Existing,Textbox,,If M1.6 = No,FALSE,FALSE,M1.6.1
+325,3.2m wide lane,Facilities,Existing,Textbox,IRC:SP:73-2018  Clause:10.4.2 The width of each toll lane shall be 3.2 m,,FALSE,FALSE,M1.7
+326,Wide (m),Facilities,Existing,Textbox,,If M1.7 = No,FALSE,FALSE,M1.7.1
+327,4.5-meter wide lane for oversized vehicles,Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause:10.4.2  width of each toll lane for over dimensioned vehicles  where it shall be 4.5 m.,,FALSE,FALSE,M1.8
+328,CCTV Images ,Facilities,Existing,Radio Button,,,FALSE,FALSE,M1.9
+329, lane signal or arrow ,Facilities,Existing,Radio Button,,,FALSE,FALSE,M1.10
+330,Fire fighting system ,Facilities,Existing,Radio Button,,,FALSE,FALSE,M1.11
+331,Min. 40 lux lighting,Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause:10.11  the minimum level of illumination on  the locations of the Project Highway where lighting is to be provided as per this  section shall be 40 Lux,,FALSE,FALSE,M1.12
+332,Taper length adequate?,Facilities,Existing,Radio Button,,,FALSE,FALSE,M1.13
+333,Emergency Lane,Facilities,Existing,Radio Button,,,FALSE,FALSE,M1.14
+334,Emergency Medical services nearby,Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause 12.12 Emergency Medical Services These services shall include setting up medical aid posts by the Concessionaire. The Concessionaire shall provide “Two Patient Capacity“ rescue ambulance(s) at the Toll Plaza location(s). Specifications of “Two Patient Capacity“ rescue ambulance along with medical devices  on-board equipments  medicines and man power,,FALSE,FALSE,M1.15
+335,Highway patrol units in the stretch,Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause:12.11 The concessionaire shall establish and operate Highway Patrol Unit(s) at the Toll Plaza  Locations  which shall continuously patrol the highway in a stretch not exceeding 50 km  and shall remain in contact with the control room on a real time basis,,FALSE,FALSE,M1.16
+336,No of vehicles,Facilities,Existing,Textbox,,If M1.16 = Yes,FALSE,FALSE,M1.16.1
+337,Crane services ,Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause:12.13 The Concessionaire shall provide a crane of adequate capacity (minimum 20 MT) at  each toll plaza location(s) with all necessary equipment so that it can reach the site of  the incident within 30 minutes of call and clear the disabled or accident vehicles. It shall  also be fitted with a GPS based vehicle tracking system to monitor its movement on 24 hours x 7 days of a week basis.,,FALSE,FALSE,M1.16
+338,Drainage Issues,Facilities,Existing,Radio Button,,,FALSE,FALSE,M1.17
+339,Other Issues,Facilities,Existing,Textbox,,,FALSE,FALSE,M1.18
+340,Comments,Facilities,Existing,Textbox,,,FALSE,FALSE,M1.19
+341,Critical observation,Facilities,Existing,,,,FALSE,FALSE,M1.20
+342,General observation,Facilities,Existing,,,,FALSE,FALSE,M1.21
+343,Severity ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M1.22
+344,Priority ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M1.23
+345,Truck lay bye,Facilities,Existing,,IRC:SP:73-2018 Clause 12.5.3  Truck lay-byes shall  in general  be located near check barriers   interstate borders  places of conventional stops of the truck operators  etc.,,,FALSE,M2
+346,GPS Location,Facilities,Existing,Lat Long,,,TRUE,FALSE,M2.1
+347,Chainage (km),Facilities,Existing,Textbox,,,FALSE,FALSE,M2.2
+348,Photo or Video or Audio,Facilities,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,M2.3
+349,signboard for prior indication ,Facilities,Existing,Radio Button,,,FALSE,FALSE,M2.4
+350,Truck lay-bye Facilities,Facilities,Existing,Select,IRC:SP:73-2018 Clause 12.5.3 The truck lay-byes shall have the following facilities: i) Paved parking  ii) Toilets and drinking water  iii) Telephone.,,FALSE,FALSE,M2.5
+351,Lighting availability,Facilities,Existing,Radio Button,,,FALSE,FALSE,M2.6
+352,Comments,Facilities,Existing,Textbox,,,FALSE,FALSE,M2.7
+353,Critical observation,Facilities,Existing,,,,FALSE,FALSE,M2.8
+354,General observation,Facilities,Existing,,,,FALSE,FALSE,M2.9
+355,Severity ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M2.10
+356,Priority ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M2.11
+357,Bus stop,Facilities,Existing,,,,,FALSE,M3
+358,GPS Location,Facilities,Existing,Lat Long,,,TRUE,FALSE,M3.1
+359,Chainage (km),Facilities,Existing,Textbox,,,FALSE,FALSE,M3.2
+360,Photo or Video or Audio,Facilities,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,M3.3
+361,Bus shelter,Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause 12.6.3  vi) The bus bay shall be provided with a shelter for passengers. The shelter shall  be structurally safe and aesthetic in appearance  while also being functional  so as to protect the waiting passengers adequately from sun  wind and rain. If  the shelter is constructed on the hill side  slopes shall be properly dressed and  suitably protected to avoid slips. ,,FALSE,FALSE,M3.4
+362,bus bay,Facilities,Existing,Radio Button,IRC:SP:73-2018 Clause 12..63 vi) The bus bay shall be provided with a shelter for passengers. ,,FALSE,FALSE,M3.5
+363,Bus bay is 30m far from intersection?,Facilities,Existing,Radio Button,IRC:SP 73-2018 Clause 12.6.2 iv) A gap of 30 m from the tangent point of intersections to start or end of the bus bay shall be desirable.At minor intersections (e.g. junctions with village roads)  distance of 60 m may be adopted.,If M3.5 = Yes,FALSE,FALSE,M3.5.1
+364,Distance from intersection,Facilities,Existing,Textbox,,If M3.6 = No,FALSE,FALSE,M3.5.2
+365,Prior indication of road sign,Facilities,Existing,Radio Button,IRC:80-2022 Clause  8.1 Road signs and road markings at or near the bus stop provides guidance for safe and efficient operation of the facility.Fig. 12 Road Signs and Markings ,,FALSE,FALSE,M3.6
+366,Availability of facility marking available ?,Facilities,Existing,Radio Button,,,FALSE,FALSE,M3.7
+367,Physical island between bus bay and main carriageway?,Facilities,Existing,Radio Button,,,FALSE,FALSE,M3.8
+368,Lighting availability,Facilities,Existing,Radio Button,,,FALSE,FALSE,M3.9
+369,Are the buses stopping at bus shelters?,Facilities,Existing,Radio Button,,,FALSE,FALSE,M3.10
+370,Bus stops far from stop ,Facilities,Existing,Textbox,,If M3.10 = No,FALSE,FALSE,M3.10.1
+371,pedestrian crossing facility to cross the road?,Facilities,Existing,Radio Button,,,FALSE,FALSE,M3.11
+372,Refuge Island for pedestrian,Facilities,Existing,Radio Button,,If M3.11 = Yes,FALSE,FALSE,M3.13
+373,Comments,Facilities,Existing,Textbox,,,FALSE,FALSE,M3.14
+374,Critical observation,Facilities,Existing,,,,FALSE,FALSE,M3.15
+375,General observation,Facilities,Existing,,,,FALSE,FALSE,M3.16
+376,Severity ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M3.17
+377,Priority ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M3.18
+378,Rest areas,Facilities,Existing,,IRC:SP:73-2018 Clause 12.10.1The concessionaire shall construct and operate  or cause to be constructed and operated  facilities such as toilets  telephones  cafeteria  restaurant  parking for cars  buses and trucks  dormitory  rest rooms  shops for travel needs  fuel stations and garage  first aid  etc. In approximately 2 Hectares of land  the following minimum facilities shall be provided.,,,FALSE,M4
+379,GPS Location,Facilities,Existing,Lat Long,,,TRUE,FALSE,M4.1
+380,Chainage (km),Facilities,Existing,Textbox,,,FALSE,FALSE,M4.2
+381,Photo or Video or Audio,Facilities,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,M4.3
+382,signboard for prior indication ,Facilities,Existing,Radio Button,,,FALSE,FALSE,M4.4
+383,Information signboard,Facilities,Existing,Radio Button,,,FALSE,FALSE,M4.5
+384,Facilities ,Facilities,Existing,Select,,,FALSE,FALSE,M4.6
+385,Dedicated parking facility?,Facilities,Existing,Radio Button,,,FALSE,FALSE,M4.7
+386,Adequate road width?,Facilities,Existing,Radio Button,,,FALSE,FALSE,M4.8
+387,Lighting availability,Facilities,Existing,Radio Button,,,FALSE,FALSE,M4.9
+388,Comments,Facilities,Existing,Textbox,,,FALSE,FALSE,M4.10
+389,Critical observation,Facilities,Existing,,,,FALSE,FALSE,M4.11
+390,General observation,Facilities,Existing,,,,FALSE,FALSE,M4.12
+391,Severity ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M4.13
+392,Priority ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M4.14
+393,Lighting,Facilities,Existing,,"IRC:SP:73-2018 Clause 12.4.3 Street Lighting: the minimum level of illumination on
+the locations of the Project Highway where lighting is to be provided as per this section shall be 40 Lux.
+
+Clause 12.5.3 lighting at the following locations of the Project
+Highway:
+i) Toll Plaza Area: The lighting in and around Toll Plaza  toll booths  office building 
+on the approach road  etc. shall be as per Section 10 of this Manual.
+ii) Rest Areas as given in Para 12.9
+iii) Truck Lay-Bye: Lighting at the truck lay-bye shall be as per Para 12.6
+iv) Bus Bay & Bus Shelter Locations: Lighting shall be provided as per Para 12.7
+v) Grade Separated Structures  Interchanges  Flyovers  Underpasses
+(vehicular or pedestrian) and Overpasses: Lighting shall be provided as per
+Para 3.4.6 of this Manual.
+vi) Built-up sections on the Project Highway both in the median of main carriageway
+and on the service roads on either side.",,,FALSE,M5
+394,GPS Location,Facilities,Existing,Lat Long,,,TRUE,FALSE,M5.1
+395,Chainage (km),Facilities,Existing,Textbox,,,FALSE,FALSE,M5.2
+396,Photo or Video or Audio,Facilities,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,M5.3
+397,Adequate Lighting facility during night time?,Facilities,Existing,Radio Button,,,,FALSE,M5.4
+398,Comments,Facilities,Existing,Textbox,,,FALSE,FALSE,M5.5
+399,Critical observation,Facilities,Existing,,,,FALSE,FALSE,M5.6
+400,General observation,Facilities,Existing,,,,FALSE,FALSE,M5.7
+401,Severity ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M5.8
+402,Priority ,Facilities,Existing,Select,IRC Specification,,FALSE,FALSE,M5.9
+403,Advanced Traffic Management System (ATMS),Facilities,Existing,Radio Button,,,FALSE,FALSE,M6
+404,GPS Location,Avenue Plantation ,Existing,Lat Long,,,TRUE,FALSE,N1
+405,Chainage (km),Avenue Plantation ,Existing,Textbox,,,FALSE,FALSE,N2
+406,Photo or Video or Audio,Avenue Plantation ,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,N3
+407,Horizontal setback ? 10-11m (from the extreme lane's centre),Avenue Plantation ,Existing,Radio Button,IRC:SP:73-2018 Clause 11.2.1 Trees shall be placed  at a minimum distance of 10-11 m from the centre line of the extreme traffic lane,,FALSE,FALSE,N4
+408,Horizontal Setback (m),Avenue Plantation ,Existing,Textbox,,If N4 = No,TRUE,FALSE,N4.1
+409,Min. 5m vertical clearance ,Avenue Plantation ,Existing,Radio Button,IRC:SP:73-2018 Clause 11.2.3 For safe traffic operation  the vertical clearance available across the roadway shall be minimum  5m. Trees shall be trimmed to 6 m and 6.5 m above the pavement in rural and urban areas respectively.,,FALSE,FALSE,N5
+410,Vertical clearance (m),Avenue Plantation ,Existing,Textbox,,If N5 = No ,TRUE,FALSE,N5.1
+411,Visibility obstruction,Avenue Plantation ,Existing,Radio Button,,,FALSE,FALSE,N6
+412,Retroreflective sheets,Avenue Plantation ,Existing,Radio Button,,,FALSE,FALSE,N7
+413,Object Hazard Marker ,Avenue Plantation ,Existing,Radio Button,,,FALSE,FALSE,N8
+414,Safety barrier ,Avenue Plantation ,Existing,Radio Button,,,FALSE,FALSE,N9
+415,Comments,Avenue Plantation ,Existing,Textbox,,,FALSE,FALSE,N10
+416,Critical observation,Avenue Plantation ,Existing,,,,FALSE,FALSE,N11
+417,General observation,Avenue Plantation ,Existing,,,,FALSE,FALSE,N12
+418,Severity ,Avenue Plantation ,Existing,Select,IRC Specification,,FALSE,FALSE,N13
+419,Priority ,Avenue Plantation ,Existing,Select,IRC Specification,,FALSE,FALSE,N14
+420,GPS Location,Overhead Electrical Lines,Existing,Lat Long,,,TRUE,FALSE,O1
+421,Chainage (km),Overhead Electrical Lines,Existing,Textbox,,,FALSE,FALSE,O2
+422,Photo or Video or Audio,Overhead Electrical Lines,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,O3
+423,Type,Overhead Electrical Lines,Existing,Select,,,FALSE,FALSE,O4
+424,Horizontal clearance as per IRC 32,Overhead Electrical Lines,Existing,Radio Button,IRC : 32-1969 Poles carrying overhead power and telecommunication lines shall  excepting the urban areas  be erected at least 10.0 metres away from the nearest edge of the roadway  provided also that these are at a minimum distance of 5.0 metres from the nearest line of avenue trees.,,FALSE,FALSE,O5
+425,Horizontal Clearance (m),Overhead Electrical Lines,Existing,Textbox,,If O5 = No,TRUE,FALSE,O5.1
+426,Vertical clearance as per CEA guidelines 2023,Overhead Electrical Lines,Existing,Radio Button,CEA Guidelines 2023 Schedule VIII A,,FALSE,FALSE,O6
+427,Vertical Clearance (m),Overhead Electrical Lines,Existing,Textbox,,If O6 = No,TRUE,FALSE,O6.1
+428,Warning  or  cautionary sign board ,Overhead Electrical Lines,Existing,,,Pop up Section H when clicked,FALSE,FALSE,O7
+429,Comments,Overhead Electrical Lines,Existing,Textbox,,,FALSE,FALSE,O8
+430,Critical observation,Overhead Electrical Lines,Existing,,,,FALSE,FALSE,O9
+431,General observation,Overhead Electrical Lines,Existing,,,,FALSE,FALSE,O10
+432,Severity ,Overhead Electrical Lines,Existing,Select,IRC Specification,,FALSE,FALSE,O11
+433,Priority ,Overhead Electrical Lines,Existing,Select,IRC Specification,,FALSE,FALSE,O12
+434,GPS Location,Traffic Calming Measures,Existing,Lat Long,,,TRUE,FALSE,P1
+435,Chainage (km),Traffic Calming Measures,Existing,Textbox,,,FALSE,FALSE,P2
+436,Photo or Video or Audio,Traffic Calming Measures,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,P3
+437,Type,Traffic Calming Measures,Existing,Select,,,FALSE,FALSE,P4
+438,Issues,Traffic Calming Measures,Existing,Select,,,FALSE,FALSE,P5
+439,Comments,Traffic Calming Measures,Existing,Textbox,,,FALSE,FALSE,P6
+440,Critical observation,Traffic Calming Measures,Existing,,,,FALSE,FALSE,P7
+441,General observation,Traffic Calming Measures,Existing,,,,FALSE,FALSE,P8
+442,Severity ,Traffic Calming Measures,Existing,Select,IRC Specification,,FALSE,FALSE,P9
+443,Priority ,Traffic Calming Measures,Existing,Select,IRC Specification,,FALSE,FALSE,P10
+444,GPS Location,User Behavior,Existing,Lat Long,,,TRUE,FALSE,Q1
+445,Chainage (km),User Behavior,Existing,Textbox,,,FALSE,FALSE,Q2
+446,Photo or Video or Audio,User Behavior,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,Q3
+447,Violation Type,User Behavior,Existing,Select,,,TRUE,FALSE,Q4
+448,Comments,User Behavior,Existing,Textbox,,,FALSE,FALSE,Q5
+449,Critical observation,User Behavior,Existing,,,,FALSE,FALSE,Q6
+450,General observation,User Behavior,Existing,,,,FALSE,FALSE,Q7
+451,Severity ,User Behavior,Existing,Select,IRC Specification,,FALSE,FALSE,Q8
+452,Priority ,User Behavior,Existing,Select,IRC Specification,,FALSE,FALSE,Q9
+453,,Service lane,Existing,,,,,FALSE,R
+454,,Service lane,Existing,,,,,FALSE,
+455,,Service lane,Existing,,,,,FALSE,
+456,School Zone,Special Zones,Existing,,,,,FALSE,S1
+457,GPS Location,Special Zones,Existing,Lat Long,,,TRUE,FALSE,T1.1
+458,Chainage (km),Special Zones,Existing,Textbox,,,FALSE,FALSE,T1.2
+459,Photo or Video or Audio,Special Zones,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,T1.3
+460,Traffic calming measures,Special Zones,Existing,,,Pop up Section Q when clicked,,FALSE,T1.4
+461,Speed signboard  ,Special Zones,Existing,Radio Button,,,TRUE,FALSE,D4.1.3
+462,25 kmph speed limit signboard on approaches,Special Zones,Existing,Radio Button,IRC 99-2018 :Clause 4.1.2 School children are more prone to commit mistakes while negotiating with highway traffic. Hence  it is recommended that vehicles should travel at maximum speeds of 25 kmph near schools. ,,TRUE,FALSE,D4.1.3.2
+463,Posted speed limit (kmph),Special Zones,Existing,Textbox,,,TRUE,FALSE,D4.1.3.3
+464,Transition speed limit (kmph),Special Zones,Existing,Textbox,,,TRUE,FALSE,D4.1.3.4
+465,Warning sign board as per IRC 67-2022 ,Special Zones,Existing,Radio Button,,,TRUE,FALSE,D4.1.3
+466,Signboard visible  ,Special Zones,Existing,Radio Button,,,TRUE,FALSE,D4.1.4
+467,Pedestrian crossing marking,Special Zones,Existing,Radio Button,,,TRUE,FALSE,D4.1.5
+468,Photo  or  video or  Audio,Special Zones,Existing,Images or Audio,,Must have an option for taking photos or recording the video or recording audio   in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,D4.1.5.1
+469,Zig zag hazard marking,Special Zones,Existing,Radio Button,,,TRUE,FALSE,D4.1.6
+470,Comments,Special Zones,Existing,Textbox,,,FALSE,FALSE,
+471,Critical observation,Special Zones,Existing,,,,FALSE,FALSE,
+472,General observation,Special Zones,Existing,,,,FALSE,FALSE,
+473,Severity ,Special Zones,Existing,Select,Select,,FALSE,FALSE,
+474,Priority ,Special Zones,Existing,Select,Select,,FALSE,FALSE,
+475,Hospital Zone,Special Zones,Existing,,,,,FALSE,S2
+476,GPS Location,Special Zones,Existing,Lat Long,,,TRUE,FALSE,T2.1
+477,Chainage (km),Special Zones,Existing,Textbox,,,FALSE,FALSE,T2.2
+478,Photo or Video or Audio,Special Zones,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,T2.3
+479,Traffic calming measures,Special Zones,Existing,Radio Button,,,TRUE,FALSE,D4.2.2
+480,Type,Special Zones,Existing,Select,,Display if D4.2.2 = Yes,TRUE,FALSE,D4.2.2.2
+481,Others,Special Zones,Existing,Textbox,,Display if D 4.2.2.2 = Others,TRUE,FALSE,D4.2.2.2.1
+482,Speed signboard  ,Special Zones,Existing,Radio Button,,,TRUE,FALSE,D4.2.3
+483,30 kmph speed limit signboard on approaches,Special Zones,Existing,Radio Button,IRC 99-2018 :Clause 4.1.2 School children are more prone to commit mistakes while negotiating with highway traffic. Hence  it is recommended that vehicles should travel at maximum speeds of 25 kmph near schools. ,,TRUE,FALSE,D4.2.3.2
+484,Posted speed limit (kmph),Special Zones,Existing,Textbox,,,TRUE,FALSE,D4.2.3.3
+485,Transition speed limit (kmph),Special Zones,Existing,Textbox,,,TRUE,FALSE,D4.2.3.4
+486,Signboard visible  ,Special Zones,Existing,Radio Button,,,TRUE,FALSE,D4.2.4
+487,Facility information sign board ,Special Zones,Existing,Radio Button,,,TRUE,FALSE,D4.2.5
+488,Comments,Special Zones,Existing,Textbox,,,FALSE,FALSE,
+489,Critical observation,Special Zones,Existing,,,,FALSE,FALSE,
+490,General observation,Special Zones,Existing,,,,FALSE,FALSE,
+491,Severity ,Special Zones,Existing,Select,Select,,FALSE,FALSE,
+492,Priority ,Special Zones,Existing,Select,Select,,FALSE,FALSE,
+493,GPS Location,Construction Zone,Existing,Lat Long,,,TRUE,FALSE,U1
+494,Chainage (km),Construction Zone,Existing,Textbox,,,FALSE,FALSE,U2
+495,Photo or Video or Audio,Construction Zone,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,U3
+496,Has the TMP been implemented correctly at the site?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U4
+497,Traffic Control Zone,Construction Zone,Existing,,,,FALSE,FALSE,U5
+498,Safety buffer zone been provided as per IRC:SP:55?,Construction Zone,Existing,Radio Button,IRC SP 55-2014 Table 4.1 Suggested lenght for Temporary Traffic Control Zone,,FALSE,FALSE,U5.1
+499,Adequate terminal transition length ,Construction Zone,Existing,Radio Button,IRC:SP:55-2014 Clause 4.2.4 and Table 4.1 The rate of taper and Approach Taper Length (ATL) for a few sample width are presented in Table 4.1 ,,FALSE,FALSE,U5.2
+500,Adequate approach transition length ,Construction Zone,Existing,Radio Button,IRC:SP:55-2014 Clause 4.2.4 and Table 4.1 The rate of taper and Approach Taper Length (ATL) for a few sample width are presented in Table 4.1 ,,FALSE,FALSE,U5.3
+501,Termination zone adequately signed to advise road users,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U5.4
+502, Direction indicator barricades,Construction Zone,Existing,Radio Button,IRC SP 55-2014 clause 5.2.6 direction indicator barricades The direction indicator barricade may be used in tapers  transitions  and other areas where specific directional guidance to drivers is necessary.,,FALSE,FALSE,U5.5
+503,Road Signs,Construction Zone,Existing,,,Pop up Section H when clicked,FALSE,FALSE,U6
+504,Transition speed limit (KMPH),Construction Zone,Existing,Textbox,,,FALSE,FALSE,U6.1
+505,Are temporary traffic signals present?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U7
+506,Clearly visible to the approaching drivers?,Construction Zone,Existing,Radio Button,,If U7 = Yes,FALSE,FALSE,U7.1
+507, Carriageway (on which the work is to take place) fully and clearly closed off to all traffic?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U8
+508, Transition zone well delineated,Construction Zone,Existing,Radio Button,IRC:SP:55-2014 Clause 5.4 Lighting Devices & Variable Message Signs,,FALSE,FALSE,U9
+509,Delineators availability,Construction Zone,Existing,,IRC SP 55-2014 Clause 5.2.3 hazard markers  All exposed roadside fixed objects  like tree  culvert or bridge parapet  etc. adjacent to traffic movement are to be delineated with hazard markers just in front of them and also at location of diversion or gore area where traffic is expected to change the direction due to temporary or permanent diversion.,,FALSE,FALSE,U10
+510,Delineation through the site safe for all road users under all anticipated conditions?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U10.1
+511,Lighting,Construction Zone,Existing,,IRC:SP:55-2014 Clause 5.4 Lighting Devices & Variable Message Signs,Pop up Section M5 when clicked,,FALSE,U11
+512,Traffic calming measures,Construction Zone,Existing,,,Pop up Section P when clicked,,FALSE,U12
+513,Road Marking,Construction Zone,Existing,,,Pop up Section G when clicked,,FALSE,U13
+514,Pavement condition,Construction Zone,Existing,,,Pop up Section E when clicked,,FALSE,U14
+515,Work Site Access,Construction Zone,Existing,,,,FALSE,FALSE,U15
+516,  work site access points located with adequate sight distances for entering and exiting work vehicles?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U15.1
+517,  All site access points closed off to unauthorized traffic?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U15.2
+518," Appropriate traffic controls in place where works traffic and public traffic interact?
+",Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U15.3
+519,Road Worker safety,Construction Zone,Existing,,,,FALSE,FALSE,U16
+520,personal protective equipment to construction workers ,Construction Zone,Existing,Radio Button,IRC SP 55-2014 clause 9.5 Protective gears for workers,,FALSE,FALSE,U16.1
+521,All workers and supervisors at the works site wearing good and required PPE as per HSE norms and as per the requirement of activity being performed?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U16.2
+522,Does the Contractor have an appointed Safety Engineer,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U16.3
+523,Vulnerable Road Users,Construction Zone,Existing,,,,FALSE,FALSE,U17
+524,pedestrians  bicyclists  and two or three wheelers able to move safely through the construction zones?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U17.1
+525,Vulnerable road users able to cross the road safely?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U17.2
+526,Particular  is safe access across the road provided for the young  the elderly and the disabled?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U17.3
+527,Have all-weather footways been provided to assist public transport users to reach their stops without walking through the road work site?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U17.4
+528,Do the construction layouts and practices allow adequate visibility for an approaching driver to see a pedestrian waiting to cross the road?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U17.5
+529,Do construction layouts ensure drivers can see pedestrians and vehicles waiting to cross from side roads or median storage areas?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U17.6
+530,Temporary pedestrian barriers ,Construction Zone,Existing,Radio Button,IRC:SP:55-2014 Clause 6.3 (Fig 6.1) Pedestrian barrier should be used to mark out any temporary footpath. Water filled barricades must always be used to protect pedestrians from traffic  excavations  plant or materials,,FALSE,FALSE,U17.7
+531,Other issues,Construction Zone,Existing,Textbox,,,FALSE,FALSE,U17.8
+532,Drainage issues,Construction Zone,Existing,,,,FALSE,FALSE,U18
+533,Drain clogged,Construction Zone,Existing,Radio Button,IRC SP:42-2014 clause 4.5.1 Maintenance of unlined drains especially prior to monsoon is essential,,FALSE,FALSE,U18.1
+534,Water logging issues,Construction Zone,Existing,Radio Button,IRC SP:50-2014 Clause 3.1 Water on the pavement can reduce skid resistance  can interrupt traffic  limit visibility due to splash and spray  increase potential for hydroplaning and cause difficulty in driving of vehicle.,,FALSE,FALSE,U18.2
+535,Condition of Drain ,Construction Zone,Existing,Select,,,FALSE,FALSE,U18.3
+536,Other  Issues,Construction Zone,Existing,Textbox,,,FALSE,FALSE,U18.4
+537,Safety barriers availability?,Construction Zone,Existing,,,,FALSE,FALSE,U19
+538,Type of barrier,Construction Zone,Existing,Select,IRC:SP:55-2014 Clause 5.2.7  The New Jersey Barriers are 1 .5 m to 2.0 m long pre-cast reinforced concrete modular pieces with shaped ends that can be interlocked and connected. Clause 5.2.8 Water-filled barricades are modular water filled plastic containers of various sizes and shapes  and an example is given in Fig. 5.20.,,FALSE,FALSE,U19.1
+539,Construction equipment and materials protected by temporary barriers?,Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U19.2
+540,"Have safe terminals been placed on the end of barrier?
+",Construction Zone,Existing,Radio Button,,,FALSE,FALSE,U19.3
+541,flagmen controlling or directing the traffic flow,Construction Zone,Existing,Radio Button,IRC:SP:55-2014 Clause 9.2 Deployment of Flagman,,FALSE,FALSE,U20
+542,"Are the flagmen highly conspicuous and placed where they can give clear instructions to approaching drivers or riders in advance of the work site?
+",Construction Zone,Existing,Radio Button,,If U20 = Yes,FALSE,FALSE,U20.1
+543,Chennelizing Devices,Construction Zone,Existing,,,,FALSE,FALSE,U21
+544,Type,Construction Zone,Existing,Select,,,FALSE,FALSE,U21.1
+545,Retroreflective,Construction Zone,Existing,Radio Button,IRC:SP:55-2014 Clause 5.2.4 Drums are generally of lightweight and with deformable materials. They shall be a minimum of 800 mm minimum  in height and have at least a 300 mm minimum width regardless of orientation Fig. 5.14,,FALSE,FALSE,U21.2
+546,Condition,Construction Zone,Existing,Select,,,FALSE,FALSE,U21.3
+547,Comments,Construction Zone,Existing,Textbox,,,FALSE,FALSE,U22
+548,Critical observation,Construction Zone,Existing,,,,FALSE,FALSE,U23
+549,General observation,Construction Zone,Existing,,,,FALSE,FALSE,U24
+550,Severity ,Construction Zone,Existing,Select,IRC Specification,,FALSE,FALSE,U25
+551,Priority ,Construction Zone,Existing,Select,IRC Specification,,FALSE,FALSE,U26
+552,GPS Location,Tunnel,Existing,Lat Long,,,TRUE,FALSE,V1
+553,Chainage (km),Tunnel,Existing,Textbox,,,FALSE,FALSE,V2
+554,Photo or Video or Audio,Tunnel,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,V3
+555,Carriageway width (m),Tunnel,Existing,Textbox,,,FALSE,FALSE,V4
+556,5.5m Vertical clearance on carriageway and shoulder,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.2.4 Minimum vertical clearance of 5.5 m over the full width of carriageway and paved shoulders,,FALSE,FALSE,V5
+557,3m vertical clearance on footpath,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.2.4 Vertical clearance over footway shall be 3.0 m minimum,,FALSE,FALSE,V6
+558,Length of tunnel is<500m,Tunnel,Existing,Radio Button,,,FALSE,FALSE,V7
+559,Length of tunnel (m),Tunnel,Existing,Textbox,,If V7 = No,FALSE,FALSE,V7.1
+560,Availability of mechanical ventilation,Tunnel,Existing,Radio Button,,,FALSE,FALSE,V8
+561,3 lane for each direction of traffic,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.2.5 Tunnels shall have minimum 3-lanes carriageway for each direction of traffic,,FALSE,FALSE,V9
+562,3m paved shoulder on left side and edge strip of 0.50 m on the right side ,Tunnel,Existing,Radio Button,,,FALSE,FALSE,V10
+563,emergeny lay bay at 750m interval if tunnel length more than 500,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.2.6 Emergency lay bye beyond the left most lane at 750 m intervals,,FALSE,FALSE,V11
+564,Do 100 m long and 3.0 m wide emergency lay bye beyond the left most lane has been provided where tunnel length more than 500?,Tunnel,Existing,Radio Button,,If V11= Yes,FALSE,FALSE,V11.1
+565,Tunnel passages,Tunnel,Existing,Radio Button,IRC:SP:73-2018 Clause 14.2.8 Tunnel passage The twin tunnels of more than 500 m length if provided shall be connected by a cross passage at an inclination to facilitate diversion of the traffic from one tube to other tube in the event of an incident or accident in one of the tubes at a spacing of 300 m.,,FALSE,FALSE,V12
+566,tunnel passage with one traffic lane  edge strip of 0.75 m  crash barriers and walkways on either side,Tunnel,Existing,Radio Button,,If V12 = Yes,FALSE,FALSE,V12.1
+567,Edge strip,Tunnel,Existing,Textbox,,If V12.1 = No,FALSE,FALSE,V12.1.1
+568,Tunnel alignment at the ends and open or  approach cuts merge smoothly with adjoining road ,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.2.10 Tunnel alignment at the ends and open or approach cuts shall merge smoothly with adjoining road in the open air,,FALSE,FALSE,V13
+569, Effective drainage system ,Tunnel,Existing,Radio Button,,,FALSE,FALSE,V14
+570,Road Marking,Tunnel,Existing,,,Pop up Section G when clicked,FALSE,FALSE,V15
+571,Road Signage,Tunnel,Existing,,,Pop up Section H when clicked,FALSE,FALSE,V16
+572,Fire detectors at an interval of 25m in tunnel length 500m and more,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.11.2 Fire Detectors installed at interval of 25 m,,FALSE,FALSE,V17
+573,Whether emergency alarm has been provided at the entrance and inside the tunnel of tunnel length more than 200m ?,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.11.2 Entrance information boards at tunnel entrances and the in-tunnel information boards in emergency parking areas in the tunnels,,FALSE,FALSE,V18
+574,Fire extinguishers installed for initial control of small-scale fires at an interval of 50 m,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.11.2  Fire Extinguishers installed at intervals of 50 m,,FALSE,FALSE,V19
+575,Smoke Discharge Equipment in tunnel of 1500m or more length,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.11.2  Smoke Discharge Equipment spread of smoke to a minimum level,,FALSE,FALSE,V20
+576,Guide board inside  the tunnel with evacuations adits,Tunnel,Existing,Radio Button,IRC 73-2018 Cl 14.11.2 Guide board direct road users in the tunnel the distance or direction to an exit or evacuation route  the current position,,FALSE,FALSE,V21
+577,Comments,Tunnel,Existing,Textbox,,,FALSE,FALSE,V22
+578,Critical observation,Tunnel,Existing,,,,FALSE,FALSE,V23
+579,General observation,Tunnel,Existing,,,,FALSE,FALSE,V24
+580,Severity ,Tunnel,Existing,Select,IRC Specification,,FALSE,FALSE,V25
+581,Priority ,Tunnel,Existing,Select,IRC Specification,,FALSE,FALSE,V26
+582,GPS Location,Special Audit,Existing,Lat Long,,,TRUE,FALSE,X1
+583,Chainage (km),Special Audit,Existing,Textbox,,,FALSE,FALSE,X2
+584,Photo or Video or Audio,Special Audit,Existing,Images,,Must have an option for taking photos or recording the video or recording audio in the field as well as  uploading the photo or video or audio recording from the device folder  Option for adding multiple photos should be there,TRUE,FALSE,X3
+585,Comments,Special Audit,Existing,Textbox,,,FALSE,FALSE,X4

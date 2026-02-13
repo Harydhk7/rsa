@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+  .rsa_dashborad_parent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .rsa_dashboard_two {
+    display: flex;
+    flex-direction: row !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  .rsa_str_details {
+    width: 100%;
+  }
+  .rsa_dash_kmaudit_lab {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .rsa_dashboard_two {
+    display: flex;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  .rsa_dash_mb_serachbar {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .rsa_dashborad_parent > div {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,2 @@
+/* hack to suppress the error */
+iframe#webpack-dev-server-client-overlay{display:none!important}

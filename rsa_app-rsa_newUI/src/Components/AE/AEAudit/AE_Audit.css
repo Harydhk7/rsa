@@ -1,0 +1,27 @@
+.table_preview_report {
+  width: 100%;
+  overflow-x: scroll;
+  background-color: #f3f6fc;
+}
+
+.table_row_rsa,
+.table_row_td {
+  border: 0.91px solid rgba(127, 163, 222, 0.3);
+  text-align: center;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+.table_general_observation {
+  width: 100%;
+  overflow-x: scroll;
+  /* background-color: #f3f6fc; */
+}
+
+.tr_general_observation,
+.th_general_observation {
+  border: 0.91px solid rgba(127, 163, 222, 0.3);
+  text-align: center;
+  padding: 10px;
+  border-collapse: collapse;
+}

@@ -1,0 +1,83 @@
+@media only screen and (max-width: 768px) {
+    .login_pms_parent {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .logo_pms {
+      display: none;
+    }
+    .pms_title {
+      font-size: 31px !important;
+    }
+    .login_pms_container {
+      width: 100% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .login_pms_parent {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .logo_pms {
+      display: none;
+    }
+    .pms_title {
+      font-size: 20px !important;
+    }
+    .login_pms_container {
+      width: 100% !important;
+    }
+    .pms_login_left {
+      width: auto !important;
+      height: 12vh !important;
+    }
+
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .login_pms_parent {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .logo_pms {
+      display: none;
+    }
+    .pms_title {
+      font-size: 20px !important;
+    }
+    .login_pms_container {
+      width: 100% !important;
+      padding: 55px 10px !important;
+      height: auto !important;
+    }
+    .pms_login_left {
+      width: auto !important;
+      height: 12vh !important;
+    }
+
+  }
+  
+  .error_message {
+    color: red;
+  }
+  
+  .pms_login_left{
+      width: 50%;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+
+  }
+  .login_pms_container{
+    width: 36%;
+    background-color: white;
+    height: 70vh;
+    border-radius: 10px;
+    padding: 55px 48px;
+    position: relative;
+  }
+
+ 

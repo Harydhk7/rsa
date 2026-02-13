@@ -1,0 +1,166 @@
+
+/* customAlerts and customLoader */
+.colorDelete{
+    color: white !important;
+    background-color: rgb(25, 118, 210);
+}
+.colorsuccessHeader{
+    background-color: forestgreen;
+}
+.colorerrorHeader {
+    background-color: red;
+}
+.coloralertHeader {
+    background-color: rgb(203, 203, 25);
+}
+.colorsuccess {
+    color:white !important;
+    text-transform: capitalize !important;
+}
+.colorerror {
+    color:white !important;
+    text-transform: capitalize !important;
+}
+.coloralert {
+    color:white !important;
+    text-transform: capitalize !important;
+}
+
+.centerThis{
+    z-index:100000 !important;
+    top:-50% !important;
+    background: transparent !important;
+}
+.centerThisLoader{
+    z-index:100000 !important;
+    top:-50% !important;
+    padding:20px;
+    background: transparent !important;
+}
+#map { height: 90% !important; }
+#map1 { 
+    margin: auto;
+    height: 95vh; 
+    width: 100%;
+}
+
+/** bug fixing */
+.MuiFormControl-root .MuiFormLabel-root{
+    background: whitesmoke !important;
+}
+
+.disableDiv {
+    pointer-events: none;
+    background-color: rgb(199, 235, 199);
+}
+
+.enableDiv {
+    pointer-events: all;
+}
+
+/** zoom over the image */
+.zoomImageHover{
+    width:30px;
+    height:30px;
+}
+.zoomImageHover:hover {
+    transform: scale(2.5); 
+  }
+
+/** DA Tab => Table height */
+.auditor_da_tableDiv{
+    height: 400px;
+    overflow: auto;
+    border-radius: 5px;
+    border: 1px solid rgba(46, 75, 122, 1);
+    margin-bottom: 15px;
+}
+
+
+
+.MuiFormLabel-asterisk{
+    color:red
+}
+.MuiFormControlLabel-asterisk {
+    color: red;
+}
+.th_general_observation {
+    th{
+        text-align: left;
+    }
+}
+#editable_master_table{
+    .MuiDataGrid-root {
+        max-height: 300px;
+        overflow: auto;
+    }
+}
+
+/* Location capture
+//for delete button in images */
+.baseImageProject {
+    position:relative; 
+    margin:3px;   
+    border:1px solid black;
+    width: fit-content;
+    :not(:last-child) {
+        border-bottom: 0px;
+    }
+    :not(:first-child) {
+        border-top: 0px;
+    }
+    img{
+        object-fit: contain;
+        width: 200px !important;
+        height: 200px !important;
+    }
+    
+}
+.overlapDeleteButton {
+    left: 1px;
+    top:1px;
+    background-color: red;
+    position: absolute;
+    z-index:10000;
+    display: none;
+}
+.centerLoaderSymbol{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    padding: 15px !important;
+    background-color: aliceblue;
+}
+.centerThisLoader{
+    background-color: yellow;
+    
+}
+.zoomCheckList img{
+    /* transform: scale(1.5);
+    max-width: 900px;
+    max-height: 900px; */
+    overflow: scroll;
+    margin:20px;
+}
+.dFlexCombo div div {
+    display: flex !important;
+}
+
+.roundImage {
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+/* change for all Buttons */
+.MuiButtonBase-root {
+    text-transform: none !important;
+}
+
+.stickDiagramSmallScreenCls{
+  @media screen and (max-width:500px){
+    top:50% !important;
+    width:80vw !important;
+    overflow: scroll !important;
+    height:50vh !important;
+  }
+}
