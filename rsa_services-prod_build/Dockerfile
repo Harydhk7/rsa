@@ -5,6 +5,7 @@ ENV PYTHONUNBUFFERED=1
 
 RUN apt-get update && \
     apt-get install -y build-essential gdal-bin libgdal-dev libproj-dev proj-bin libpq-dev gcc g++ python3-dev libgeos-dev libgeos-c1v5 && \
+    rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 COPY requirements.txt /app/
