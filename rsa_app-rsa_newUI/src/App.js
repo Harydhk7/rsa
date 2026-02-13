@@ -42,7 +42,7 @@ import FUAudit from "./Components/FU/FUAudit/FUAudit";
 
 //BE connects 
 //export const url1 = "http://10.42.235.143:8001/";
-export const url1 = "https://coers.iitm.ac.in/rsa_development/"
+export const url1 = process.env.REACT_APP_API_URL || "http://localhost:5000/"
 //export const url1 = "https://rbg.iitm.ac.in/rsa_api/";
 
 //export const url1 = "http://10.24.6.234:8600/"; // dev in IP
